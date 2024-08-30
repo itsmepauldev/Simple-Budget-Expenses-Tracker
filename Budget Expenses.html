@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Expenses Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="justify-center flex">
+      <div class="shadow-lg p-16 rounded-lg">
+       
+          <input
+            type="text"
+            name="budgetInput"
+            id="budgetInput"
+            placeholder="Enter Total Amount"
+            class="block border-[1px] rounded-md p-2 placeholder:text-black placeholder:text-center font-semibold border-gray-400 mb-3"
+          />
+          <input
+            type="text"
+            name="expensesInput"
+            id="expensesInput"
+            placeholder="Enter Your Expenses"
+            class="block  border-[1px] rounded-md p-2 placeholder:text-black placeholder:text-center font-semibold border-gray-400 mb-3"
+          />
+          <input
+            type="text"
+            name="typeofExpenses"
+            id="typeofExpenses"
+            placeholder="Type of Expenses"
+            class="block  border-[1px] rounded-md p-2 placeholder:text-black placeholder:text-center font-semibold border-gray-400 mb-5"
+          />
+          <button id="checkBudget" class=" bg-[#587EF4]  rounded-md text-center font-semibold p-2 w-52 text-white">Check Budget</button>
+        </div>
+      </div>
+</div>
+<div class="bg-[#587EF4] mx-[600px] mt-10 rounded-lg shadow-lg ">
+      <div class="flex justify-center">
+ <div >
+      <h3 id="totalBudget" class=" font-semibold  w-52 text-white text-start"></h3>
+      <h3 id="Expenses" class="text-start font-semibold  w-52 text-white"></h3>
+      <h3 id="Balance" class="text-start font-semibold  w-52 text-white"></h3>
+    </div>
+    </div>
+    <div class="justify-center flex">
+      <div>
+        <div id="div" class="text-start font-semibold  w-52 text-white">
+
+        </div>
+      </div>
+     
+    </div>
+      
+  </div>
+  </body>
+  <script src="Budget Expenses.js"></script>
+</html>
